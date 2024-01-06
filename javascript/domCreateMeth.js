@@ -1,5 +1,5 @@
-// getElementByName
-var bodyTag = document.getElementsByName('body')
+// getElementsByTagName
+var bodyTag = document.getElementsByTagName('body')[0];
 console.log(bodyTag)
 // createElement-----create h2 tag
 const newElement = document.createElement('h2')
@@ -13,4 +13,4 @@ console.log(newComment)
 
 newElement.appendChild(newText)//i append text inside h2 tag
 
-bodyTag.appendChild(newElement)//issue occurs
+bodyTag.appendChild(newElement)
